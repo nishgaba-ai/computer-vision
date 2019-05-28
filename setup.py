@@ -7,6 +7,7 @@ setup(
     name ='computer-vision',
     author_email='nishchal@unrealai.xyz',
     author='Nishchal Gaba',
+    url='https://github.com/nishgaba-ai/computer-vision',
     version='0.0.2',
     description='Machine Learning utilities to make your Project Development Life easier',
     py_modules=["helloworld"],
