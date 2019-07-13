@@ -1,5 +1,9 @@
 # Welcome to Computer Vision Pip Package Docs
 
+
+## Installation
+..* pip install computer-vision
+
 For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/computer-vision).
 
 ## Commands
