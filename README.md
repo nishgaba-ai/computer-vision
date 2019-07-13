@@ -2,7 +2,7 @@
 
 
 ## Installation
-⋅⋅* pip install computer-vision 
+* pip install computer-vision 
 
 For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/computer-vision).
 
