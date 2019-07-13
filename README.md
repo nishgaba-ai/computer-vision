@@ -4,7 +4,7 @@
 ## Installation
 * pip install computer-vision 
 
-For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/computer-vision).
+For full documentation visit [github.com](https://github.com/nishgaba-ai/computer-vision/blob/master/docs/index.md).
 
 ## Commands
 
