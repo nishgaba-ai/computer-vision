@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to Computer Vision Pip Package Docs
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/computer-vision).
 
 ## Commands
 
@@ -13,5 +13,4 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 
     mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        .. index.md  # The documentation homepage.
