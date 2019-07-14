@@ -11,7 +11,7 @@ For full documentation visit [https://github.com/nishgaba-ai/computer-vision/blo
 * **'loadImage'**  
      **as_bgr()**   # Loads Imge as CV2 BGR format (numpy array as of OpenCV 4)  
      **as_rgb()**   # Loads Image as RGB format using pillow  
-* **'loadVideo'**
+* **'loadVideo'**  
      **fromCamera**  # Loads from camera from an external source  
      **fromVideo**   # Loads from a video path into the camera  
      **fromPiCamera**   # Loads the video source from Pi Camera  
