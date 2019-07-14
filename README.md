@@ -22,6 +22,7 @@ For full documentation visit [https://github.com/nishgaba-ai/computer-vision/blo
         loadImage.py    # Contains modules for Loading Images in differnet formats
         loadVideo.py    # Contains modules for Loading Video using different sources
         utils.py        # Contains modules for off the hand utilities such as Euclidean Distance, etc.
+        networkRequests.py  # Contains modules for handling network requests such as GET, POST
 
     mkdocs.yml    # The configuration file.
     docs/
