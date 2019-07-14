@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+from imutils.video import VideoStream
 
 
 class fromCamera:
@@ -57,7 +57,21 @@ class fromVideo:
         self.frame = frame
 
 
+class fromPiCamera:
+    '''
+        Loads the video source from Pi Camera
+    '''
+    def __init__(self, res=None):
+        self.res = res
+        self.frame = None
 
+        if self.res is not None:
+            self.capture = VideoStream(usePiCamera = True, resolution = (self.res[0], self.res[1])).start()
+        else:
+            self.capture = VideoStream(usePiCamera = True).start()
+    
+    def readFrame(self):
+        self.frame = self.capture.read()
 
 
 
