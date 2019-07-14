@@ -4,13 +4,13 @@ For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/compute
 
 ## Modules
 
-* 'loadImage'
-     as_bgr()   # Loads Imge as CV2 BGR format (numpy array as of OpenCV 4)\n
-     as_rgb()   # Loads Image as RGB format using pillow\n
+* 'loadImage'  
+     as_bgr()   # Loads Imge as CV2 BGR format (numpy array as of OpenCV 4)  
+     as_rgb()   # Loads Image as RGB format using pillow  
 * 'loadVideo'
-     fromCamera  # Loads from camera from an external source\n
-     fromVideo   # Loads from a video path into the camera\n
-     fromPiCamera   # Loads the video source from Pi Camera\n
+     fromCamera  # Loads from camera from an external source  
+     fromVideo   # Loads from a video path into the camera  
+     fromPiCamera   # Loads the video source from Pi Camera  
 
 ## Project layout
 
