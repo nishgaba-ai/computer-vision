@@ -113,7 +113,51 @@ class uploadImageGC:
             print(e)
 
 
+class downloadImageS3:
+    '''
+        Downloads Image from S3 Bucket
+    '''
+    
+    def __init__(self, aws_access_key_id=None, aws_secret_access_key=None, bucket_name = None, object_name = None, file_name = None):
+        
+        self.aws_access_key_id = aws_access_key_id
+        self.aws_secret_access_key = aws_access_key_id
+        self.client = None
+        self.BUCKET_NAME = bucket_name
+        self.OBJECT_NAME = object_name
+        self.FILE_NAME = file_name
+        createClient()
 
+    def setKeyID(self, aws_access_key_id):
+        self.aws_access_key_id = aws_access_key_id
+    
+    def setAccessKey(self, aws_secret_access_key):
+        self.aws_secret_access_key = aws_secret_access_key
+
+    def setBucket(self, bucket_name):
+        self.BUCKET_NAME = bucket_name
+    
+    def setObject(self, object_name):
+        self.OBJECT_NAME = object_name
+    
+    def setFile(self, file_name):
+        self.FILE_NAME = file_name
+
+    def createClient(self):
+        if self.aws_access_key_id is not None and self.aws_secret_access_key is not None:
+            self.client = boto3.client('s3', aws_access_key_id =  self.aws_access_key_id, aws_secret_access_key = self.aws_secret_access_key)
+
+    def download(self):
+        try:
+            if self.BUCKET_NAME is not None and self.OBJECT_NAME is not None and self.FILE_NAME is not None:
+                with open(self.FILE_NAME, 'wb') as f:
+                    self.client.download_fileobj(self.BUCKET_NAME, self.OBJECT_NAME, f)
+            else:
+                print("Error while downloading from the bucket, one of the Bucket, Object or File name is None")
+    
+        except Exception as e:
+            print("Exception occured while downloading from S3")
+            print(e)
 
 
 
