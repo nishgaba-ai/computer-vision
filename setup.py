@@ -8,9 +8,9 @@ setup(
     author_email='nishchal@unrealai.xyz',
     author='Nishchal Gaba',
     url='https://github.com/nishgaba-ai/computer-vision',
-    version='0.0.5',
+    version='0.0.6',
     description='Machine Learning utilities to make your Project Development Life easier',
-    py_modules=["helloworld"],
+    py_modules=["loadImage", "loadVideo", "utils", "networkRequests"],
     package_dir={'':'src'},
     classifiers=[
         "Programming Language :: Python :: 3",
