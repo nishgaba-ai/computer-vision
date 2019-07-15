@@ -13,13 +13,13 @@ def euclideanDistance(src, targ):
 
 def isStringPalindrome(data):
     '''
-        Checks if input string or its coverted string is a palindrome
+        Checks if input string or corresponding string from input is a palindrome
     '''
     
     try:
         # Convert input type to string
         data = str(data)
-        return True if string==string[::-1] else False
+        return True if data==data[::-1] else False
 
     except:
         print("Error while processing, please check the input is correct")
