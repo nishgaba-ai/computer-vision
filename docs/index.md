@@ -1,6 +1,6 @@
 # Welcome to Computer Vision Pip Package Docs
 
-For full documentation visit [mkdocs.org](https://github.com/nishgaba-ai/computer-vision).
+For full documentation visit [https://github.com/nishgaba-ai/computer-vision/blob/master/docs/index.md](https://github.com/nishgaba-ai/computer-vision).
 
 ## Modules
 
