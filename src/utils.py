@@ -25,8 +25,18 @@ def isStringPalindrome(data):
         print("Error while processing, please check the input is correct")
 
 
+def isPrime(n):
+    '''
+        Checks if a given number is prime or not
 
-
+        Source: GeeksforGeeks
+    '''
+    try:
+        n = int(n)
+        return all([(n % j) for j in range(2, int(n**0.5)+1)]) and n>1
+    except:
+        print("Error Occured While Checking for prime, please check the input is correct")
+        return False
 
 
 
