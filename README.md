@@ -22,6 +22,8 @@ For full documentation visit [https://github.com/nishgaba-ai/computer-vision/blo
 ## Project layout
 
     src/
+        ImageDenoising.py # contains modules for denoising image
+        threshold.py    #contains modules for thresholding image
         loadImage.py    # Contains modules for Loading Images in differnet formats
         loadVideo.py    # Contains modules for Loading Video using different sources
         utils.py        # Contains modules for off the hand utilities such as Euclidean Distance, etc.
