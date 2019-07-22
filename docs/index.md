@@ -11,7 +11,10 @@ For full documentation visit [https://github.com/nishgaba-ai/computer-vision/blo
      **fromCamera**  # Loads from camera from an external source  
      **fromVideo**   # Loads from a video path into the camera  
      **fromPiCamera**   # Loads the video source from Pi Camera  
-
+* **'threshold'**  
+    **thresholdimage**  # reads a single image and threshold the image 
+* **'ImageDenoising'**  
+    **denoising**  # reads a single image and remove the noise from image 
 ## Project layout
 
     src/
